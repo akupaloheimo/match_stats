@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+
+option go_package = "./shotpb";
+
+
+enum Outcome {
+    UNDEFINED = 0;
+    IN = 1;
+    OUT = 2;
+    NET = 3;
+    LET = 4;
+}
+
+message Shot {
+    // The player who made the shot
+    string player_id = 1;
+
+    // The outcome of the shot
+    Outcome shot_outcome = 2;
+
+    // Order in rally.
+    int64 order_in_rally = 3;
+
+    // Running count of rallies. Failed serve counts as a rally.
+    int64 rally_index = 4;
+}
+
+message ShotList {
+  repeated Shot shots = 1;
+}

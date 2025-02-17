@@ -1,0 +1,36 @@
+[
+  {
+    "player_id": "player_2",
+    "total_shots": 9,
+    "shots_in": 9,
+    "shots_fault": 0,
+    "total_rallies": 5,
+    "serve_in": 5,
+    "serve_fault": 0,
+    "serve_percentage": 100,
+    "aces": 2,
+    "double_faults": 0,
+    "score": 9,
+    "shortest_rally": 0,
+    "longest_rally": 7,
+    "total_rally_length": 25,
+    "average_rally_length": 5
+  },
+  {
+    "player_id": "player_1",
+    "total_shots": 16,
+    "shots_in": 5,
+    "shots_fault": 11,
+    "total_rallies": 5,
+    "serve_in": 3,
+    "serve_fault": 10,
+    "serve_percentage": 23.076923076923077,
+    "aces": 0,
+    "double_faults": 3,
+    "score": 1,
+    "shortest_rally": 0,
+    "longest_rally": 7,
+    "total_rally_length": 25,
+    "average_rally_length": 5
+  }
+]
